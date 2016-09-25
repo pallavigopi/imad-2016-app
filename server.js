@@ -23,7 +23,7 @@ app.get('article2',function(req,res){
     console.log("article 2 requested");
 });
 app.get('article3',function(req,res){
-    console.log("article 3 requested");
+    console.log("article 3 requested and got");
 });
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
